@@ -1,0 +1,16 @@
+.product-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 10px;
+  background: white;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
